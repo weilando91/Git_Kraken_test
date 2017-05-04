@@ -27,7 +27,8 @@
 #include "status_led.h"
 #include "leds.h"
 #include "adc.h"
-
+#include "digi.h"
+#include "led.h"
 /*****************************    Defines    *******************************/
 #define USERTASK_STACK_SIZE configMINIMAL_STACK_SIZE
 #define IDLE_PRIO 0
@@ -66,6 +67,8 @@ static void setupHardware(void)
   init_systick();
   status_led_init();
   init_adc();
+  init_led();
+  init_digi();
 }
 
 
@@ -84,9 +87,10 @@ int main(void)
   // Start the tasks.
   // ----------------
   return_value &= xTaskCreate( status_led_task, ( signed portCHAR * ) "Status_led", USERTASK_STACK_SIZE, NULL, LOW_PRIO, NULL );
-  return_value &= xTaskCreate( red_led_task,    ( signed portCHAR * ) "Red_led",    USERTASK_STACK_SIZE, NULL, LOW_PRIO, NULL );
-  return_value &= xTaskCreate( yellow_led_task, ( signed portCHAR * ) "Yellow_led", USERTASK_STACK_SIZE, NULL, LOW_PRIO, NULL );
-  return_value &= xTaskCreate( green_led_task,  ( signed portCHAR * ) "green_led",  USERTASK_STACK_SIZE, NULL, LOW_PRIO, NULL );
+//  return_value &= xTaskCreate( red_led_task,    ( signed portCHAR * ) "Red_led",    USERTASK_STACK_SIZE, NULL, LOW_PRIO, NULL );
+//  return_value &= xTaskCreate( yellow_led_task, ( signed portCHAR * ) "Yellow_led", USERTASK_STACK_SIZE, NULL, LOW_PRIO, NULL );
+//  return_value &= xTaskCreate( green_led_task,  ( signed portCHAR * ) "green_led",  USERTASK_STACK_SIZE, NULL, LOW_PRIO, NULL );
+    return_value &= xTaskCreate( digi_task,  ( signed portCHAR * ) "green_led",  USERTASK_STACK_SIZE, NULL, LOW_PRIO, NULL );
 
   if (return_value != pdTRUE)
   {

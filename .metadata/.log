@@ -458,3 +458,120 @@ java.util.ConcurrentModificationException
 
 !ENTRY org.eclipse.core.resources 4 368 2017-05-04 14:33:31.130
 !MESSAGE Resource '/git' does not exist.
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 14:57:01.421
+!MESSAGE DS_ERROR: CORTEX_M4_0: Error: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 14:57:01.424
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 14:57:01.427
+!MESSAGE DS_ERROR: CORTEX_M4_0: Error: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 14:57:01.429
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 14:58:55.197
+!MESSAGE DS_ERROR: CORTEX_M4_0: Error: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 14:58:55.200
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 14:58:55.202
+!MESSAGE DS_ERROR: CORTEX_M4_0: Error: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 14:58:55.205
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:00:40.437
+!MESSAGE DS_ERROR: CORTEX_M4_0: Error: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:00:40.441
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:00:40.443
+!MESSAGE DS_ERROR: CORTEX_M4_0: Error: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:00:40.445
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:01:57.059
+!MESSAGE DS_ERROR: CORTEX_M4_0: Error: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:01:57.062
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:01:57.065
+!MESSAGE DS_ERROR: CORTEX_M4_0: Error: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:01:57.067
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:02:44.214
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:02:44.255
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:02:44.270
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:02:44.311
+!MESSAGE DS_ERROR: CORTEX_M4_0: Flash Programmer: Current erase option is not valid; please try changing option to erase Entire Flash or By Address Range. Core Reset error. The requested reset was aborted.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:02:44.366
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:02:44.393
+!MESSAGE DS_ERROR: CORTEX_M4_0: File Loader: Memory write failed: Could not write register PC: execution state prevented access
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:02:44.396
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: File: /home/vision/git/Git_Kraken_test/git2/Debug/git2.out: Load failed.
+
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-05-04 15:02:44.397
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@61dc5eae): Status ERROR: com.ti.ccstudio.debug code=20003 File: /home/vision/git/Git_Kraken_test/git2/Debug/git2.out: Load failed. null' resulted in an error.
+!SUBENTRY 1 com.ti.ccstudio.debug 4 20003 2017-05-04 15:02:44.397
+!MESSAGE File: /home/vision/git/Git_Kraken_test/git2/Debug/git2.out: Load failed.
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:02:44.400
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:02:58.518
+!MESSAGE DS_ERROR: CORTEX_M4_0: Error: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:02:58.521
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:02:58.523
+!MESSAGE DS_ERROR: CORTEX_M4_0: Error: Debug Port error occurred.
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:02:58.526
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
+
