@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;git/Debug__GNU&apos; to &apos;Debug&apos;" description="Rename resource &apos;Debug__GNU&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Debug__GNU" name="Debug" stamp="1493901052744" updateReferences="true"/>
+</session>

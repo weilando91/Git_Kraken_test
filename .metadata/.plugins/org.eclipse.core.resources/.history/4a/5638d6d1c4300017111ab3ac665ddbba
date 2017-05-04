@@ -1,0 +1,23 @@
+# FIXED
+
+leds.obj: ../leds.c
+leds.obj: /opt/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.1.LTS/include/stdint.h
+leds.obj: ../tm4c123gh6pm.h
+leds.obj: /home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/FreeRTOS.h
+leds.obj: /opt/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.1.LTS/include/stddef.h
+leds.obj: /home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/projdefs.h
+leds.obj: /home/vision/git/Git_Kraken_test/git/FreeRTOSConfig.h
+leds.obj: /home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/portable.h
+leds.obj: /home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/portmacro.h
+leds.obj: /home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/mpu_wrappers.h
+
+../leds.c: 
+/opt/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.1.LTS/include/stdint.h: 
+../tm4c123gh6pm.h: 
+/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/FreeRTOS.h: 
+/opt/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.1.LTS/include/stddef.h: 
+/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/projdefs.h: 
+/home/vision/git/Git_Kraken_test/git/FreeRTOSConfig.h: 
+/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/portable.h: 
+/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/portmacro.h: 
+/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/mpu_wrappers.h: 

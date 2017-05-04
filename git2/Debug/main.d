@@ -1,0 +1,38 @@
+main.o: ../main.c ../tm4c123gh6pm.h ../emp_type.h ../systick_frt.h \
+ /home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/FreeRTOS.h \
+ /home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/projdefs.h \
+ /home/vision/git/Git_Kraken_test/git2/FreeRTOSConfig.h \
+ /home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/portable.h \
+ /home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/portmacro.h \
+ /home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/mpu_wrappers.h \
+ /home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/task.h \
+ /home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/list.h \
+ ../status_led.h ../leds.h ../adc.h
+
+../tm4c123gh6pm.h:
+
+../emp_type.h:
+
+../systick_frt.h:
+
+/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/FreeRTOS.h:
+
+/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/projdefs.h:
+
+/home/vision/git/Git_Kraken_test/git2/FreeRTOSConfig.h:
+
+/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/portable.h:
+
+/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/portmacro.h:
+
+/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/mpu_wrappers.h:
+
+/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/task.h:
+
+/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include/list.h:
+
+../status_led.h:
+
+../leds.h:
+
+../adc.h:

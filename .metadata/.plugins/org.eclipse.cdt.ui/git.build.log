@@ -1,22 +1,16 @@
 
-**** Build of configuration Debug for project git ****
+**** Build of configuration Debug__GNU for project git ****
 
 /opt/ti/ccsv7/utils/bin/gmake -k -j 8 all -O 
-Building file: ../main.c
-Invoking: ARM Compiler
-"/opt/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vision/git/Git_Kraken_test/git" --include_path="/opt/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.1.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
-Finished building: ../main.c
- 
-Building file: ../tm4c123gh6pm_startup_ccs.c
-Invoking: ARM Compiler
-"/opt/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="/home/vision/git/Git_Kraken_test/git" --include_path="/opt/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.1.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d"  "../tm4c123gh6pm_startup_ccs.c"
-Finished building: ../tm4c123gh6pm_startup_ccs.c
- 
 Building target: git.out
-Invoking: ARM Linker
-"/opt/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.1.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"git.map" --heap_size=0 --stack_size=512 -i"/opt/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.1.LTS/lib" -i"/opt/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="git_linkInfo.xml" --rom_model -o "git.out" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd"  -llibc.a 
-<Linking>
-Finished building target: git.out
- 
+Invoking: GNU Linker
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -DPART_TM4C123GH6PM -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -MD -std=c99 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-Map,"git.map" -o"git.out" "./adc.o" "./gpio.o" "./leds.o" "./main.o" "./startup_frt.o" "./status_led.o" "./systick_frt.o" "./FRT_Library/FreeRTOS/Source/croutine.o" "./FRT_Library/FreeRTOS/Source/list.o" "./FRT_Library/FreeRTOS/Source/queue.o" "./FRT_Library/FreeRTOS/Source/tasks.o" "./FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/common.o" "./FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/port.o" "./FRT_Library/FreeRTOS/Source/portable/MemMang/heap_2.o" -Wl,-T"../tm4c123gh6pm.lds"  -Wl,--start-group -lc -Wl,--end-group 
+makefile:160: recipe for target 'git.out' failed
+/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text.exit+0x16): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [git.out] Error 1
+gmake: *** [all] Error 2
+makefile:156: recipe for target 'all' failed
 
 **** Build Finished ****

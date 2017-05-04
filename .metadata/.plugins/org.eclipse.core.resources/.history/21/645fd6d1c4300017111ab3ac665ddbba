@@ -1,0 +1,7 @@
+# FIXED
+
+startup_frt.obj: ../startup_frt.c
+startup_frt.obj: /opt/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.1.LTS/include/stdint.h
+
+../startup_frt.c: 
+/opt/ti/ccsv7/tools/compiler/ti-cgt-arm_16.9.1.LTS/include/stdint.h: 
