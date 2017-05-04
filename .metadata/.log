@@ -364,3 +364,25 @@ Caused by: java.lang.IllegalArgumentException:
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-05-04 13:23:05.545
 !MESSAGE Indexed 'git' (2 sources, 1 headers) in 0.063 sec: 52 declarations; 142 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2017-05-04 13:35:20.090 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-05-04 13:35:31.683
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.ti.common.core 4 0 2017-05-04 13:35:31.710
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2017-05-04 13:35:31.711
+!MESSAGE debugServerDir=/opt/ti/ccsv7/ccs_base/DebugServer
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-05-04 13:35:42.097
+!MESSAGE No repository found at file:/home/vision/Downloads/css/CCS7.0.0.00043_linux-x64/baserepo/dvtRepo.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-05-04 13:35:46.487
+!MESSAGE No repository found at file:/home/vision/Downloads/css/CCS7.0.0.00043_linux-x64/featurerepo.
