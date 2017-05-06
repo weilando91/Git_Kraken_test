@@ -575,3 +575,47 @@ java.util.ConcurrentModificationException
 !ENTRY com.ti.ccstudio.debug 1 0 2017-05-04 15:02:58.526
 !MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Halting Target CPU 
 
+!SESSION 2017-05-06 12:52:06.805 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2017-05-06 12:52:10.207
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2017-05-06 12:52:10.208
+!MESSAGE debugServerDir=/opt/ti/ccsv7/ccs_base/DebugServer
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-05-06 12:52:24.349
+!MESSAGE No repository found at file:/home/vision/Downloads/css/CCS7.0.0.00043_linux-x64/baserepo/dvtRepo.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-05-06 12:52:28.183
+!MESSAGE No repository found at file:/home/vision/Downloads/css/CCS7.0.0.00043_linux-x64/featurerepo.
+!SESSION 2017-05-06 12:58:20.225 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2017-05-06 12:58:57.743
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2017-05-06 12:58:57.744
+!MESSAGE debugServerDir=/opt/ti/ccsv7/ccs_base/DebugServer
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-05-06 12:59:09.801
+!MESSAGE No repository found at file:/home/vision/Downloads/css/CCS7.0.0.00043_linux-x64/baserepo/dvtRepo.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2017-05-06 12:59:14.194
+!MESSAGE No repository found at file:/home/vision/Downloads/css/CCS7.0.0.00043_linux-x64/featurerepo.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-05-06 12:59:36.516
+!MESSAGE Indexed 'RTCS' (2 sources, 0 headers) in 0.091 sec: 31 declarations; 131 references; 1 unresolved inclusions; 0 syntax errors; 10 unresolved names (5.8%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-05-06 12:59:36.874
+!MESSAGE Indexed 'RTCS' (2 sources, 0 headers) in 0.053 sec: 31 declarations; 131 references; 1 unresolved inclusions; 0 syntax errors; 10 unresolved names (5.8%)

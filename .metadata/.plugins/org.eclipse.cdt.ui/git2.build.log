@@ -2,6 +2,133 @@
 **** Build of configuration Debug for project git2 ****
 
 /opt/ti/ccsv7/utils/bin/gmake -k -j 8 all -O 
-gmake[1]: 'git2.out' is up to date.
+Building file: ../adc.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"adc.d" -MT"adc.o" -o"adc.o"  "../adc.c"
+../adc.c:13:1: warning: return type defaults to 'int'
+ init_adc()
+ ^
+../adc.c: In function 'init_adc':
+../adc.c:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../adc.c
+ 
+Building file: ../gpio.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"gpio.d" -MT"gpio.o" -o"gpio.o"  "../gpio.c"
+../gpio.c: In function 'init_gpio':
+../gpio.c:40:7: warning: variable 'dummy' set but not used [-Wunused-but-set-variable]
+   int dummy;
+       ^
+Finished building: ../gpio.c
+ 
+Building file: ../led.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"led.d" -MT"led.o" -o"led.o"  "../led.c"
+../led.c: In function 'init_led':
+../led.c:44:11: warning: variable 'dummy' set but not used [-Wunused-but-set-variable]
+     INT8S dummy;
+           ^
+../digi.c: In function 'init_digi':
+../digi.c:45:11: warning: variable 'dummy' set but not used [-Wunused-but-set-variable]
+     INT8S dummy;
+           ^
+../digi.c: In function 'digi_task':
+../digi.c:88:5: warning: implicit declaration of function 'vTaksDelete' [-Wimplicit-function-declaration]
+     vTaksDelete(NULL);
+     ^
+Finished building: ../led.c
+ 
+Building file: ../digi.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"digi.d" -MT"digi.o" -o"digi.o"  "../digi.c"
+Finished building: ../digi.c
+ 
+Building file: ../leds.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"leds.d" -MT"leds.o" -o"leds.o"  "../leds.c"
+../leds.c: In function 'red_led_init':
+../leds.c:47:9: warning: variable 'dummy' set but not used [-Wunused-but-set-variable]
+   INT8S dummy;
+         ^
+../leds.c: In function 'yellow_led_init':
+../leds.c:65:9: warning: variable 'dummy' set but not used [-Wunused-but-set-variable]
+   INT8S dummy;
+         ^
+../leds.c: In function 'green_led_init':
+../leds.c:83:9: warning: variable 'dummy' set but not used [-Wunused-but-set-variable]
+   INT8S dummy;
+         ^
+../leds.c: In function 'red_led_task':
+../leds.c:106:5: warning: implicit declaration of function 'get_adc' [-Wimplicit-function-declaration]
+     adc_value = get_adc();
+     ^
+Finished building: ../leds.c
+ 
+Building file: ../main.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"main.d" -MT"main.o" -o"main.o"  "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../startup_frt.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"startup_frt.d" -MT"startup_frt.o" -o"startup_frt.o"  "../startup_frt.c"
+Finished building: ../startup_frt.c
+ 
+Building file: ../status_led.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"status_led.d" -MT"status_led.o" -o"status_led.o"  "../status_led.c"
+../status_led.c: In function 'status_led_init':
+../status_led.c:49:9: warning: variable 'dummy' set but not used [-Wunused-but-set-variable]
+   INT8S dummy;
+         ^
+Finished building: ../status_led.c
+ 
+Building file: ../systick_frt.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"systick_frt.d" -MT"systick_frt.o" -o"systick_frt.o"  "../systick_frt.c"
+Finished building: ../systick_frt.c
+ 
+Building file: ../FRT_Library/FreeRTOS/Source/list.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"FRT_Library/FreeRTOS/Source/list.d" -MT"FRT_Library/FreeRTOS/Source/list.o" -o"FRT_Library/FreeRTOS/Source/list.o"  "../FRT_Library/FreeRTOS/Source/list.c"
+Finished building: ../FRT_Library/FreeRTOS/Source/list.c
+ 
+Building file: ../FRT_Library/FreeRTOS/Source/croutine.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"FRT_Library/FreeRTOS/Source/croutine.d" -MT"FRT_Library/FreeRTOS/Source/croutine.o" -o"FRT_Library/FreeRTOS/Source/croutine.o"  "../FRT_Library/FreeRTOS/Source/croutine.c"
+Finished building: ../FRT_Library/FreeRTOS/Source/croutine.c
+ 
+Building file: ../FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/common.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/common.d" -MT"FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/common.o" -o"FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/common.o"  "../FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/common.c"
+Finished building: ../FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/common.c
+ 
+Building file: ../FRT_Library/FreeRTOS/Source/queue.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"FRT_Library/FreeRTOS/Source/queue.d" -MT"FRT_Library/FreeRTOS/Source/queue.o" -o"FRT_Library/FreeRTOS/Source/queue.o"  "../FRT_Library/FreeRTOS/Source/queue.c"
+Finished building: ../FRT_Library/FreeRTOS/Source/queue.c
+ 
+Building file: ../FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/port.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/port.d" -MT"FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/port.o" -o"FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/port.o"  "../FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/port.c"
+Finished building: ../FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/port.c
+ 
+Building file: ../FRT_Library/FreeRTOS/Source/portable/MemMang/heap_2.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"FRT_Library/FreeRTOS/Source/portable/MemMang/heap_2.d" -MT"FRT_Library/FreeRTOS/Source/portable/MemMang/heap_2.o" -o"FRT_Library/FreeRTOS/Source/portable/MemMang/heap_2.o"  "../FRT_Library/FreeRTOS/Source/portable/MemMang/heap_2.c"
+Finished building: ../FRT_Library/FreeRTOS/Source/portable/MemMang/heap_2.c
+ 
+Building file: ../FRT_Library/FreeRTOS/Source/tasks.c
+Invoking: GNU Compiler
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -c -mcpu=cortex-m4 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DPART_TM4C123GH6PM -I"/home/vision/git/Git_Kraken_test/git2" -I"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/arm-none-eabi/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/include" -I"/home/vision/git/Git_Kraken_test/git/FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4" -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -c -MMD -MP -MF"FRT_Library/FreeRTOS/Source/tasks.d" -MT"FRT_Library/FreeRTOS/Source/tasks.o" -o"FRT_Library/FreeRTOS/Source/tasks.o"  "../FRT_Library/FreeRTOS/Source/tasks.c"
+Finished building: ../FRT_Library/FreeRTOS/Source/tasks.c
+ 
+Building target: git2.out
+Invoking: GNU Linker
+"/opt/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-4_9-2015q3/bin/arm-none-eabi-gcc" -DPART_TM4C123GH6PM -ffunction-sections -fdata-sections -g -gdwarf-3 -gstrict-dwarf -Wall -specs="nosys.specs" -MD -std=c99 -march=armv7e-m -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-Map,"git2.map" -o"git2.out" "./adc.o" "./digi.o" "./gpio.o" "./led.o" "./leds.o" "./main.o" "./startup_frt.o" "./status_led.o" "./systick_frt.o" "./FRT_Library/FreeRTOS/Source/croutine.o" "./FRT_Library/FreeRTOS/Source/list.o" "./FRT_Library/FreeRTOS/Source/queue.o" "./FRT_Library/FreeRTOS/Source/tasks.o" "./FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/common.o" "./FRT_Library/FreeRTOS/Source/portable/GCC/ARM_CM4/port.o" "./FRT_Library/FreeRTOS/Source/portable/MemMang/heap_2.o" -Wl,-T"../tm4c123gh6pm.lds"  
+Finished building target: git2.out
+ 
 
 **** Build Finished ****
